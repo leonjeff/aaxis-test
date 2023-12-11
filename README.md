@@ -42,10 +42,22 @@ You can access to the available endpoints using a client like postman using the 
 
 
 You can use a payload similar to this:
-{
-  "sku": "ABC123aa",
-  "product_name": "Example Product",
-  "description": "This is an example product.",
-  "created_at": "2023-12-01T12:30:00Z",
-  "updated_at": "2023-12-01T14:45:00Z"
-}
+
+```bash
+[
+  {
+    "sku": "Producto A",
+    "productName": "Nombre roducto A",
+    "description": "Descripcion producto A",
+    "createdAt": "2023-12-01",
+    "updatedTt": "2023-12-05"
+  },
+  {
+    "sku": "Producto B",
+    "productName": "Nombre roducto B",
+    "description": "Descripcion producto B",
+    "createdAt": "2023-12-01",
+    "updatedTt": "2023-12-05"
+  }
+]
+```
